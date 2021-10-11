@@ -1,0 +1,187 @@
+/*corps*/
+body{
+    background-color:rgba(0,0,0,0.01);
+    
+}
+/*le div qui contient les listes*/
+.kat{
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+/*listes */
+ul{
+justify-content: space-around;
+display: flex;
+list-style: none;
+font-size: 1.7rem;
+font-family: serif;
+letter-spacing: 3px;
+text-shadow: 5px 2px 2px rgb(240, 233, 233);
+color: gray;
+
+}
+/*première lettre des listes */
+li ::first-letter {
+    color: red;
+    font-size: 40px;
+}
+/*class première liste qui est position*/
+.r{
+    position: absolute;
+    top:0;
+    left: 20px;
+}
+/* button inscrire*/
+button{
+        border-radius: 22px;
+        box-shadow: 5px 3px 0 gray;
+        height: 50px;
+        width: 150px;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        color: rgb(108, 108, 231);
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        text-decoration:rgb(108, 108, 231);
+        font-family: serif;
+}
+/*pour les liens*/
+a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.5px;
+    text-shadow: 5px 2px 2px rgb(211, 202, 202);
+    position: absolute;
+    top: 30px;
+}
+/*main sert de boite utiliser pour les 3 images */
+main{
+    background-color: rgba(255,255,255,0.2);
+		
+		width: 310px;
+        box-shadow: 1px 6px 17px gray;
+        height: 400px;
+        justify-content: space-around;
+        border-radius: 22px;
+}
+/*class d'une image*/
+.j{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+/*class d'une image*/
+}.w{
+     position: absolute;
+     top:150px ;
+     left: 40px;
+ /*class d'une image*/    
+}.o{
+    position: absolute;
+    top:150px ;
+    left: 1000px;
+}
+/*label utiliser pour les noms */
+label{
+       color: black;
+       font-family: serif;
+       font-size: 1.2rem;
+       letter-spacing: 2px;
+       text-shadow: 5px 2px 2px rgb(211, 202, 202);
+
+}
+/*class du label bile ezechiel*/
+.bil{
+      position: absolute;
+      top: 170px;
+      left: 600px;
+}
+/*class du label affran chabel*/
+.aff{
+      position: absolute;
+      right: 110px;
+      top: 170px;
+}
+/*class du label anzoumana */
+.anz{  
+    position: absolute;
+    right: 1030px;
+    top: 170px;
+       
+}
+/*class du label iles des caraibes*/
+.iles{
+       position: absolute;
+       color: rgb(0, 0, 0);
+       border-color: rgba(0,0,0,0.2) ;
+       top: 500px;
+       font-size: 1.5rem;
+       left: 100px;
+       
+}
+/*pour les cercles*/
+span{
+       
+      box-shadow: 5px 0px 0 gray;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background: black;
+      
+      padding: 20px;
+}
+/*identifiant d un span d'un cercle*/
+#ya{
+      position: absolute;
+      right: 780px;
+      top: 160px;
+}
+/*identifiant d un span d'un cercle*/
+#yo{
+    position: absolute;
+    left: 1010px;
+    top: 160px;
+    right: 200px;
+}
+/*identifiant d un span d'un cercle*/
+#and{
+      position: absolute;
+      left: 50px;
+      top: 160px;
+     
+}
+/*class du label monogaga*/
+.pain{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    border-color: rgba(0,0,0,0.2) ;
+    top: 500px;
+    font-size: 1.5rem;
+    left: 600px;
+
+}
+/*class du label grand berebi*/
+.gr{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    border-color: rgba(0,0,0,0.2) ;
+    top: 500px;
+    font-size: 1.5rem;
+    left: 1070px;
+
+}
+/*comme son nom l indique utiliser pour les images*/
+img{
+     position: absolute;
+     top: 80px;
+     
+     left: 0.7px;
+}
+/*pour le flou*/
+.foot{
+    height: 680px;
+    filter: blur(2px) contrast(1.1)  brightness(.9) ; 
+ background: linear-gradient(35deg,white,rgba(255,255,255,0.8),rgba(255,255,255,0.6),rgba(255,255,255,0.4),rgba(255,255,255,0.2),white);
+}
+
